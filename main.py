@@ -89,7 +89,6 @@ def process_message(message):
                 else:
                     return create_twilio_response(data["response"])
             
-        return create_twilio_response(data["response"])        
     return create_twilio_response("I'm sorry, I couldn't understand your question. Please ask something else or visit the admission section of the university website for more information.")
        
     
