@@ -1,0 +1,429 @@
+{
+    "intents": [
+
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I can assist you with queries related to admission in engineering colleges in Maharashtra after 12th standard. Whether you need information about eligibility criteria, application process, important dates, or any other aspect of admission, feel free to ask!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "Seat Acceptance",
+            "patterns": [
+                "What Is the procedure to accept the allotted Seat in counselling?",
+                "How do I accept the seat allotted to me?",
+                "Do I need to pay any fees once a seat is allotted in MHT CET counselling?"
+            ],
+            "responses": [
+                "Once a candidate is allotted a seat, he/she needs to login to the MHT CET candidate portal and choose the “Accept and Freeze” option. After the option is selected, the candidate will be issued a provisional seat allotment letter with details of college and branch with details of seat confirmation fee to be paid. Candidates will need to pay the fees online through credit/debit card or internet banking. Once the fee payment is done, the seat allotment will be confirmed."
+            ]
+        },
+        {
+            "tag": "After allocation of Seat",
+            "patterns": [
+                "What is the process after you get allocated in any college?",
+                "What to do after the seat is allotted?",
+                "Can I still participate in MHT CET counselling if I do not accept the seat allotted to me?",
+                "I got allocated in one college but I dont want to take admission in that college. What should i do?"
+            ],
+            "responses": [
+                "Candidates will have the option to freeze, slide, or float their allotted seats. Freeze: Students who are satisfied with the allotted seats and do not want to participate in other rounds of MHT CET 2024 counselling will needs to login to the MHT CET candidate portal and choose the “Accept and Freeze” option. After the option is selected, the candidate will be issued a provisional seat allotment letter with details of college and branch with details of seat confirmation fee to be paid. Candidates will need to pay the fees online through credit/debit card or internet banking. Once the fee payment is done, the seat allotment will be confirmed. Slide: Students who want to accept the allotted seat but also are open to upgrading to the higher preferred course in the same institute should choose the option “Slide”. However, it must be noted that if the candidate is allotted a higher preferred course, the previously allotted seat will be canceled.Float: Students who have been allotted a seat in previous seat allotment rounds and now wish to upgrade to any course at any college/institute will have to select the option “Float”. If they are upgraded to another course or institute, the previously allotted seat will be canceled."
+            ]
+        },
+        {
+            "tag": "Documents",
+            "patterns": [
+                "What documents are required to participate in MHT CET counseling? ",
+                "Documents required?"
+            ],
+            "responses": [
+                "To participate in the MHT CET counselling, candidates will need to upload the following documents at the time of registration. [1].Class 10 Pass Certificate & Mark Sheet [2].Class 12 Pass Certificate & Mark Sheet [3].Copy of MHT CET Result/Scorecard [4].Character Certificate [5].Migration Certificate [6].Category Certificate (if applicable) [7].School Leaving Certificate [8].Domicile Certificate of Maharashtra (if applicable) [9].MHT CET Admit Card The original copy of all the above listed documents will have to be uploaded while filling the counselling registration form and must be submitted to the institute for verification at the time of admission to the allotted institute. "
+            ]
+        },
+        {
+            "tag": "Eligiblity Criteria",
+            "patterns": [
+                "What are the eligibility criteria for admission to the BTech colleges in Maharashtra that accept the MHT CET score?",
+                "What is MHT CET Eligibility Criteria?",
+                "What is the age limit to apply for MHT CET?",
+                "Am I eligible for counselling?"
+            ],
+            "responses": [
+                " Candidates looking forward to pursuing a BTech course must fulfill the requirements laid down by the colleges. Aspirants who meet the eligibility conditions can apply for the course. Check the common eligibility criteria for admission to BTech college in Maharashtra that accept MHT CET: [1].Age Limit: There is no age limit for candidates. [2].Nationality: Candidates should be Indian nationals. [3].Educational Qualification: Candidates should have passed a 10+2 or equivalent examination from a recognized board/university with Physics, Chemistry, and Mathematics. Candidates appearing in the qualifying examination with at least 45% marks (40% marks for candidates belonging to reserved categories) are eligible to apply. [4].Domicile: Candidates must have a domicile certificate of Maharashtra state."
+            ]
+        },
+        {
+            "tag": "Total Colleges",
+            "patterns": [
+                "How many BTech colleges accept MHT CET score in Maharashtra?"
+            ],
+            "responses": [
+                "There are about 500+ BTech colleges that accept MHT CET in Maharashtra. Among these, 457 colleges are privately owned, 43 colleges are owned by public/government organizations and public-private entities own 2 BTech colleges."
+            ]
+        },
+        {
+            "tag": "Not appeared MHtcet",
+            "patterns": [
+                
+                " I have not appeared in MHT CET. Can I still register for the counselling?"
+            ],
+            "responses": [
+                "Candidates who have not appeared in MHT CET exam can participate in the counselling based on their JEE Main score, if appeared. Candidates who did not appear either in JEE Main or MHT CET can participate in the counselling based on their class 12 percentage. Admission in BTech courses in Maharashtra is given based on three exams [1].MHT CET [2].JEE Main [3].Class 12 Marks .A certain number of seats are reserved under Home-State quota and All India quota. All India quota seats are filled based on JEE Main scores while Home-State quota seats are filled on through MHT CET scores. At the end of counselling seats are allotted based on MHT CET and JEE Main, seats that remain vacant are filled based on class 12 marks. At the time of registration for MHT CET counselling, candidates need to provide the details of applying for admission based on JEE Main/MHT CET or class 12."
+            ]
+        },
+        {
+            "tag": "Apply for councelling",
+            "patterns": [
+                "How do I register for the counselling ?",
+                "How do I apply for admission to colleges using my CET score?"
+            ],
+            "responses": [
+                "To participate in the MHT CET counselling, candidates need to register online on the official website mahacet.org. At the time of registration, candidates need to fill in all the required details on the form and upload the necessary documents. After registration, Maharashtra CET Cell will release a merit list based on MHT CET score and class 12 marks. All the candidates with their name in the merit list will be required to fill choices of colleges for seat allotment. The allotment of seats will be done based on the rank in the MHT CET merit list."
+            ]
+        },
+        {
+            "tag": "How will councelling will be conducted",
+            "patterns": [
+                "How will MHT CET counselling 2024 be conducted?"
+            ],
+            "responses": [
+                "MHT CET counselling will be conducted online through Centralized Admission Process (CAP) which includes registration, verification of documents, choice filling, allotment of seats, etc."
+            ]
+        },
+        
+        {
+            "tag": "Reservation criteria",
+            "patterns": [
+                "Is there any reservation for certain categories in CET admissions?",
+                "Reservation Criteria"
+            ],
+            "responses": [
+                " As per the rules of the Maharashtra State Government, candidates from Maharashtra are also given reservation benefits in the total number of MHT CET seats. Interested candidates can check the MHT CET Counselling reservation criteria:- Category-Percentage of Reservation: Scheduled Castes-13%, Scheduled Tribes (ST)-7%, Other Backward Classes (OBC)-19%, De Notified Tribes-3%, Nomadic Tribes 1-2.5%, Nomadic Tribes 2-3.5%, Nomadic Tribes 3-2%, Total 50% is reserved"
+            ]
+        },
+        {
+            "tag": "TFWS",
+            "patterns": [
+                "What is the tuition fee waiver scheme (TFWS) in MHT CET counselling, and who is eligible for it?",
+                "What is the advantage of TFWS?",
+                "TFWS?",
+                "Who is eligible for TFWS?"
+            ],
+            "responses": [
+                "Tuition Fee Waiver Scheme is an initiative of AICTE to provide financial assistance to deserving candidates. Following this scheme, Maharashtra State CET Cell reserves 5% of the total seats for engineering and pharmacy students to provide a waiver of the complete tuition fee. Only candidates belonging to the Maharashtra State Candidature are eligible for Tuition Fee Waiver Scheme. The annual family income of the candidates must be less than 8 LPA (from all sources) to be eligible for the TFWS."
+            ]
+        },
+        {
+            "tag": "Total Cap rounds",
+            "patterns": [
+                " How many rounds are there in MHT CET counselling? ",
+                "How many CAP rounds are there?"
+            ],
+            "responses": [
+                " There are 3-4 CAP rounds .In every round you apply for number of colleges and list of students allocated is displayed after every round.The exact schedule with the number of rounds will be announced soon on the official website mahacet.org ."
+            ]
+        },
+        {
+            "tag": "Cap round details",
+            "patterns": [
+                "What happens in CAP round?"
+            ],
+            "responses": [
+                "Candidates lock the colleges as per their preferences .Then the colleges are allotted to them as per their merits in CET exam."
+            ]
+        },
+        {
+            "tag": "Fees",
+            "patterns": [
+                " What is the fee to participate in the Counselling?"
+            ],
+            "responses": [
+                "The counselling fees for different categories are as follows: General Category, Outside Maharashtra State Applicant and Children of Indian workers in Gulf Countries: Rs 800 (Tentative), Reserved Category from Maharashtra State and Persons with Disability applicants from Maharashtra: Rs 600 (Tentative), Children of NRI / OCI / PIO, Foreign National: Rs. 5000 (Tentative), It is important to note that the fees mentioned above are tentative and may be subject to change. "
+            ]
+        },
+        {
+            "tag": "CET Website",
+            "patterns": [
+                "Where can I check the round-wise cutoff for all rounds of MHT CET counseling?",
+                "Where can I check MHT CET counselling dates?"
+            ],
+            "responses": [
+                "MHT CET portal: mahacet.org."
+            ]
+        },
+        {
+            "tag": "FC Role",
+            "patterns": [
+                "What is the role of facilitation Centre?"
+            ],
+            "responses": [
+                "FC Verification documents for SCOE admissions. Documents uploaded while filling application forms are verified here."
+            ]
+        },
+        {
+            "tag": "After application form",
+            "patterns": [
+                "What is the procedure after filling cap application forms? "
+            ],
+            "responses": [
+                "After that candidates have to report at admission facilitation centres. Next is the selection of college and course options. "
+            ]
+        },
+        {
+            "tag": "After freezing allocated seat",
+            "patterns": [
+                "What happens after you freeze allocated college?",
+                "I froze my allocated seat. what should i do now?"
+            ],
+            "responses": [
+                "After freezing your seat, first you have to print your seat acceptance letter. At the allotted college, you have to show your seat acceptance letter, have to fill remaining fee according to your family income. Then your admission procedure will start."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                " By mistakely I freeze my allocated seat ,now I dont want to take admission in that college , can I be eligible for round 2 or can I unfreeze my allotted seat ?"
+            ],
+            "responses": [
+                " If you chose freeze your seat you can not unfreeze it and you have to complete the admission formalities and if you want to cancel your admission it has to be done from the college or else don't pay the payment to book your seat. But note you will be out of the counselling rounds by anyway. "
+            ]
+        },
+        {
+            "tag": "Option form changes",
+            "patterns": [
+                "Can candidates make changes to their option form after submission? ",
+                "Can i make change in my option form after submitting it?"
+            ],
+            "responses": [
+                "The guidelines for making changes to the option form after submission will be provided by the MHT CET authorities. Candidates should follow the specified instructions."
+            ]
+        },
+        {
+            "tag": "government colleges through cet",
+            "patterns": [
+                "Can I get admission to a government college through CET?"
+            ],
+            "responses": [
+                "Admission to government colleges through CET depends on factors such as merit, reservation policies, and availability of seats. Candidates must meet the eligibility criteria of cut-off percentile to get into one."
+            ]
+        },
+        {
+            "tag": "Admission outside Maharashtra",
+            "patterns": [
+                " Can I get admission to a college outside Maharashtra through CET? "
+            ],
+            "responses": [
+                "Yes, many CET exams are conducted at the national level, allowing students to apply to colleges across the country. However, admission criteria may vary depending on the institution."
+            ]
+        },
+        {
+            "tag": "EWS",
+            "patterns": [
+                "How can I get qualified  for EWS? What is the criteria?",
+                "Am I EWS Candidate?"
+            ],
+            "responses": [
+                "To be eligible for EWS your annual family income should be below 8 lakh rupees, applicants should belong to the general category and the resident should be of Maharashtra. "
+            ]
+        },
+        {   "tag": "Both TFWS and EWS",
+            "patterns": [
+                "Can I apply for both TFWS and EWS?"
+            ],
+            "responses": [
+                "Yes, you can apply for both. You ll be allotted according to their respective percentile."
+            ]
+        },
+        {
+            "tag": "Eligible for spot round as a tfws candidate",
+            "patterns": [
+                "Am I eligible for Spot round If I apply for TFWS? "
+            ],
+            "responses": [
+                "Yes, you are eligible for the Spot round."
+            ]
+        },
+        {
+            "tag": "withdraw admission",
+            "patterns": [
+                "Can I withdraw my admission in counselling? ",
+                " What is the process for withdrawing admission in MHT CET counselling? "
+            ],
+            "responses": [
+                "Candidates can withdraw their admission within the specified time frame. The MHT CET Counselling fee paid by the candidate will be refunded after deducting the processing fee."
+            ]
+        },
+        {
+            "tag": "total no. of colleges i can choose",
+            "patterns": [
+                "How many colleges can a candidate choose in the option form during MHT CET counselling?"
+            ],
+            "responses": [
+                "Candidates participating in MHT CET CAP counselling can choose up to 300 options for colleges and courses as per their preference. They need to add the courses as per their priority. "
+            ]
+        },
+        {
+            "tag": "EBC",
+            "patterns": [
+                "Can I apply for EBC certificate once I get into the college?"
+            ],
+            "responses": [
+                "Yes but the student should be admitted through the CAP round and also their annual family income should not exceed above 8 lakhs ."
+            ]
+        },
+        {
+            "tag": "What is CAP",
+            "patterns": [
+                "What is the CAP round in the MHT-CET? "
+            ],
+            "responses": [
+                " CAP stands for Centralized Admission Process and is important for BE and BTECH students .Students are needed to fill out CAP application forms to get into technical colleges of their choices."
+            ]
+        },
+        {
+            "tag": "Additional rounds",
+            "patterns": [
+                "What is the procedure for applying to the  additional rounds of mhtcet?"
+            ],
+            "responses": [
+                "After the completion of all the cap rounds there can be a possibility of additional round depending on certain criteria. "
+            ]
+        },
+        {
+            "tag": "Management Quota",
+            "patterns": [
+                "Can I get admission through management quota using my CET score?"
+            ],
+            "responses": [
+                "Some colleges may offer admission through management quota, which usually requires a separate application process and higher fees.  "
+            ]
+        },
+        {
+            "tag": "Multiple Courses",
+            "patterns": [
+                "Can I apply for multiple courses using my CET score?"
+            ],
+            "responses": [
+                " Yes, Institute course combination is given as an option."
+            ]
+        },
+        {
+            "tag": "Scholarship",
+            "patterns": [
+                "Can I apply for scholarships using my CET score?"
+            ],
+            "responses": [
+                "Yes, some colleges offer scholarships based on CET scores, merit, or other criteria."
+            ]
+        },
+        {
+            "tag": "Cutoff",
+            "patterns": [
+                "What is the cutoff score for admission through CET?"
+            ],
+            "responses": [
+                "The cutoff score varies each year and depends on factors such as the number of applicants and the difficulty level of the exam. "
+            ]
+        },
+        {
+            "tag": "marks for top college",
+            "patterns": [
+                "What are the percentile and marks needed in the MHT CET for top colleges?"
+            ],
+            "responses": [
+                " It is expected that the candidates with a percentile of 70 or above in the MHT CET 2024 will be awarded a rank of 40,000 or above. "
+            ]
+        },
+        {
+            "tag": "VJTI",
+            "patterns": [
+                "If someone scores 70% in HSC and 150+ in MH-CET, will he get admission in VJTI? Do they consider board marks also?"
+            ],
+            "responses": [
+                "Nobody asks for Board Marks. Board marks doesn't matter. What matters the most is your CET or JEE SCORE. All the admissions in MAHARASHTRA for Engineering are done on the basis of CET SCORE while at national level JEE SCORE is considered for Engineering admissions."
+            ]
+        }
+    ]
+}
